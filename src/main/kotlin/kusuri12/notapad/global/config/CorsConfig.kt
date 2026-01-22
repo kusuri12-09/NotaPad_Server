@@ -1,4 +1,4 @@
-package kusuri12.bookfinder.global.config
+package kusuri12.notapad.global.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

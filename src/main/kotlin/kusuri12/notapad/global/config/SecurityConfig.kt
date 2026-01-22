@@ -1,9 +1,9 @@
-package kusuri12.bookfinder.global.config
+package kusuri12.notapad.global.config
 
-import kusuri12.bookfinder.global.exception.ForbiddenHandler
-import kusuri12.bookfinder.global.exception.UnauthorizedHandler
-import kusuri12.bookfinder.global.jwt.JwtProvider
-import kusuri12.bookfinder.global.jwt.filter.JwtFilter
+import kusuri12.notapad.global.exception.ForbiddenHandler
+import kusuri12.notapad.global.exception.UnauthorizedHandler
+import kusuri12.notapad.global.jwt.JwtProvider
+import kusuri12.notapad.global.jwt.filter.JwtFilter
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.security.config.annotation.web.builders.HttpSecurity

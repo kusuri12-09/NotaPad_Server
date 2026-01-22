@@ -1,7 +1,7 @@
-package kusuri12.bookfinder.global.config
+package kusuri12.notapad.global.config
 
 import jakarta.annotation.PostConstruct
-import kusuri12.bookfinder.domain.user.service.AuthService
+import kusuri12.notapad.domain.user.service.AuthService
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils
 import org.jetbrains.exposed.sql.transactions.transaction

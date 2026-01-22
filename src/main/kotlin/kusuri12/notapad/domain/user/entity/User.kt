@@ -1,4 +1,4 @@
-package kusuri12.bookfinder.domain.user.entity
+package kusuri12.notapad.domain.user.entity
 
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.userdetails.UserDetails
