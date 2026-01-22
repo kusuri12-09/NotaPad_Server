@@ -1,10 +1,10 @@
-package kusuri12.bookfinder.domain.user.presentation
+package kusuri12.notapad.domain.user.presentation
 
-import kusuri12.bookfinder.domain.user.presentation.dto.request.LoginRequest
-import kusuri12.bookfinder.domain.user.presentation.dto.request.SignUpRequest
-import kusuri12.bookfinder.domain.user.presentation.dto.response.LoginResponse
-import kusuri12.bookfinder.domain.user.presentation.dto.response.SignUpResponse
-import kusuri12.bookfinder.domain.user.service.AuthService
+import kusuri12.notapad.domain.user.presentation.dto.request.LoginRequest
+import kusuri12.notapad.domain.user.presentation.dto.request.SignUpRequest
+import kusuri12.notapad.domain.user.presentation.dto.response.LoginResponse
+import kusuri12.notapad.domain.user.presentation.dto.response.SignUpResponse
+import kusuri12.notapad.domain.user.service.AuthService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody

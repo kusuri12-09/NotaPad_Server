@@ -1,4 +1,4 @@
-package kusuri12.bookfinder.domain.user.presentation.dto.request
+package kusuri12.notapad.domain.user.presentation.dto.request
 
 data class LoginRequest(
     val username: String,
