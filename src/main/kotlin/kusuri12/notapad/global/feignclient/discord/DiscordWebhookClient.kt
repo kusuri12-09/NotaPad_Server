@@ -1,4 +1,4 @@
-package kusuri12.bookfinder.global.feignclient.discord
+package kusuri12.notapad.global.feignclient.discord
 
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.PostMapping
