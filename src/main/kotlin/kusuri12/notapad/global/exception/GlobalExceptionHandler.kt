@@ -1,11 +1,11 @@
-package kusuri12.bookfinder.global.exception
+package kusuri12.notapad.global.exception
 
 import io.github.oshai.kotlinlogging.KotlinLogging
 import jakarta.servlet.http.HttpServletRequest
-import kusuri12.bookfinder.global.exception.error.ErrorCode
-import kusuri12.bookfinder.global.exception.error.ErrorResponse
-import kusuri12.bookfinder.global.feignclient.discord.DiscordWebhookClient
-import kusuri12.bookfinder.global.feignclient.discord.DiscordWebhookRequest
+import kusuri12.notapad.global.exception.error.ErrorCode
+import kusuri12.notapad.global.exception.error.ErrorResponse
+import kusuri12.notapad.global.feignclient.discord.DiscordWebhookClient
+import kusuri12.notapad.global.feignclient.discord.DiscordWebhookRequest
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.ControllerAdvice

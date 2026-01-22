@@ -1,4 +1,4 @@
-package kusuri12.bookfinder.global.exception.error
+package kusuri12.notapad.global.exception.error
 
 import org.springframework.http.HttpStatus
 

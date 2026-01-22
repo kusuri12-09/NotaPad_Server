@@ -1,4 +1,4 @@
-package kusuri12.bookfinder.global.exception
+package kusuri12.notapad.global.exception
 
 import io.github.oshai.kotlinlogging.KotlinLogging
 import jakarta.servlet.http.HttpServletRequest
