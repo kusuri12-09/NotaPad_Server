@@ -1,7 +1,6 @@
-package kusuri12.bookfinder.global.jwt
+package kusuri12.notapad.global.jwt
 
 import io.github.oshai.kotlinlogging.KotlinLogging
-import io.jsonwebtoken.ExpiredJwtException
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.security.Keys
 import org.springframework.stereotype.Component

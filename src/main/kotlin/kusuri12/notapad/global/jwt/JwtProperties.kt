@@ -1,4 +1,4 @@
-package kusuri12.bookfinder.global.jwt
+package kusuri12.notapad.global.jwt
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 
