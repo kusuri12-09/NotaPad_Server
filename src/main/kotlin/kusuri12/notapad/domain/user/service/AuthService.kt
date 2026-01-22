@@ -1,7 +1,8 @@
 package kusuri12.notapad.domain.user.service
 
 import kusuri12.notapad.domain.user.entity.User
-import kusuri12.notapad.domain.user.exception.InvalidCredential
+import kusuri12.notapad.domain.user.exception.InvalidCredentialException
+import kusuri12.notapad.domain.user.exception.UserAlreadyExistException
 import kusuri12.notapad.domain.user.service.AuthService.UserTable.toUser
 import kusuri12.notapad.global.jwt.JwtProvider
 import org.jetbrains.exposed.dao.id.LongIdTable
@@ -46,14 +47,14 @@ class AuthService(
         if (user != null && encoder.matches(password, user.pass)) {
             return jwtProvider.generateAccessToken(user.name)
         } else {
-            throw InvalidCredential()
+            throw InvalidCredentialException()
         }
     }
 
     fun signUp(username: String, password: String): String {
         transaction {
             val exists = !UserTable.selectAll().where { UserTable.name eq username }.empty()
-            if (exists) throw IllegalArgumentException("username already exists")
+            if (exists) throw UserAlreadyExistException()
 
             UserTable.insert {
                 it[name] = username
